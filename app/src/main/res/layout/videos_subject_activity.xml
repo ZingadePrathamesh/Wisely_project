@@ -1,106 +1,89 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:background="@drawable/background_theme"
-    android:layout_height="match_parent">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/background_theme"
     android:layout_height="match_parent">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SUBJECTS"
-        android:textColor="@color/white"
+        android:text="SUBJECT"
         android:background="@drawable/heading_bg"
-        android:textSize="40sp"
-        android:gravity="center"
-        android:layout_margin="4sp"/>
-
-    <LinearLayout
+        android:layout_margin="8sp"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:id="@+id/heading_text_view"
+        android:gravity="center"/>
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <GridLayout
+        android:layout_height="match_parent"
+        android:layout_below="@+id/heading_text_view">
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:rowCount="100"
-            android:columnCount="1">
-            <TextView android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_gravity="fill"
-                android:layout_margin="4sp"
-                android:background="@drawable/heading_bg"
-                android:text="FIRST SEMESTER"
+            android:layout_margin="8sp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="32sp"
+                android:text="First Semester "
+                android:textColor="@color/white"
                 android:gravity="center"
-                android:textColor="@color/skin"
-                android:textSize="32sp"/>
-
+                android:layout_marginBottom="16sp"
+                android:background="@drawable/sub_heading_bg"/>
             <Button
-                android:layout_margin="4sp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_gravity="fill"
-                android:id="@+id/eng_maths1_video_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="Engineering Mathematics I"
-                android:textSize="24sp"
-                android:textColor="@color/dark_green"
-                android:background="@drawable/button_background"/>
-            <Button
+                android:id="@+id/em1_video_button"
+                android:background="@drawable/button_background"
                 android:layout_margin="4sp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_gravity="fill"
-                android:id="@+id/eng_physics1_video_button"
-                android:text="ENGINEERING PHYSICS"
                 android:textSize="24sp"
-                android:textColor="@color/dark_green"
-                android:background="@drawable/button_background"/>
+                android:gravity="center"/>
             <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Engineering Physics I"
+                android:id="@+id/ep1_video_button"
+                android:background="@drawable/button_background"
                 android:layout_margin="4sp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_gravity="fill"
-                android:id="@+id/eng_chem1_video_button"
-                android:text="ENGINEERING CHEMISTRY"
                 android:textSize="24sp"
-                android:textColor="@color/dark_green"
-                android:background="@drawable/button_background"/>
+                android:gravity="center"/>
             <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Engineering chemisty I"
+                android:id="@+id/ec1_video_button"
+                android:background="@drawable/button_background"
                 android:layout_margin="4sp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_gravity="fill"
-                android:id="@+id/mechanics_video_button"
-                android:text="MECHANICS"
                 android:textSize="24sp"
-                android:textColor="@color/dark_green"
-                android:background="@drawable/button_background"/>
+                android:gravity="center"/>
             <Button
-                android:layout_margin="4sp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_gravity="fill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BEE"
                 android:id="@+id/bee_video_button"
-                android:text="BASIC ELECTRICAL ENGINEERING"
+                android:background="@drawable/button_background"
+                android:layout_margin="4sp"
                 android:textSize="24sp"
-                android:textColor="@color/dark_green"
-                android:background="@drawable/button_background"/>
-
-
-
-
-        </GridLayout>
-    </LinearLayout>
+                android:gravity="center"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mechanics"
+                android:id="@+id/mech_video_button"
+                android:background="@drawable/button_background"
+                android:layout_margin="4sp"
+                android:textSize="24sp"
+                android:gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_marginBottom="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:text="back"
-        android:id="@+id/back_from_videos_subject"
-        android:background="@drawable/button_background"
-        android:layout_margin="8sp"/>
-</LinearLayout>
-
-</ScrollView>
+        android:id="@+id/back_from_Sub_video"
+        android:background="@drawable/sub_heading_bg"/>
+</RelativeLayout>
