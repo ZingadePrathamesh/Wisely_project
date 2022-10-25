@@ -9,16 +9,16 @@
         android:layout_marginTop="8sp"
         android:orientation="horizontal">
         <Button
-            android:layout_width="56sp"
-            android:layout_height="56sp"
-            android:background="@drawable/menu_icon_teal"
+            android:layout_width="46sp"
+            android:layout_height="46sp"
+            android:background="@drawable/menu_icon"
             android:layout_margin="4sp"/>
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:text="HOMEPAGE"
-            android:textSize="40sp"
-            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:gravity="center_horizontal|center_vertical"
             android:layout_margin="4sp"
             android:textColor="@color/white"
             android:background="@drawable/heading_bg"/>
@@ -46,14 +46,16 @@
             android:layout_width="0sp"
             android:id="@+id/notes_button"
             android:layout_height="144sp"
-            android:layout_margin="4sp"
-            android:layout_weight="1"/>
+            android:layout_margin="25sp"
+            android:layout_weight="1"
+            android:background="@drawable/notes_icon"/>
         <Button
             android:layout_width="0sp"
             android:layout_weight="1"
             android:id="@+id/video_button"
             android:layout_height="144sp"
-            android:layout_margin="4sp"/>
+            android:layout_margin="25sp"
+            android:background="@drawable/video_icon"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -66,14 +68,17 @@
             android:layout_width="0sp"
             android:id="@+id/zen_mode_button"
             android:layout_height="144sp"
-            android:layout_margin="4sp"
-            android:layout_weight="1"/>
-        <Button
-            android:layout_width="0sp"
-            android:id="@+id/timer_button"
+            android:layout_margin="25sp"
             android:layout_weight="1"
+            android:background="@drawable/zenmode_icon"/>
+
+        <Button
+            android:id="@+id/timer_button"
+            android:layout_width="0sp"
             android:layout_height="144sp"
-            android:layout_margin="4sp"/>
+            android:layout_margin="25sp"
+            android:layout_weight="1"
+            android:background="@drawable/timer_icon" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -88,8 +93,8 @@
             android:layout_width="0sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="NOTES"            android:textStyle="bold"
-
+            android:text="NOTES"
+            android:textStyle="bold"
             android:textColor="@color/dark_green"
             android:textSize="24sp"
             android:gravity="center"/>
