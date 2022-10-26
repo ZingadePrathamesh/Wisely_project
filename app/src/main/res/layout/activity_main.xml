@@ -41,14 +41,16 @@
         android:layout_margin="4sp"
         android:id="@+id/grid1"
         android:layout_below="@id/banner_view">
+
         <Button
 
-            android:layout_width="0sp"
             android:id="@+id/notes_button"
+            android:layout_width="0sp"
             android:layout_height="144sp"
             android:layout_margin="25sp"
             android:layout_weight="1"
-            android:background="@drawable/notes_icon"/>
+            android:background="@drawable/notes_icon"
+            android:clickable="false" />
         <Button
             android:layout_width="0sp"
             android:layout_weight="1"
