@@ -39,59 +39,62 @@
                 android:textSize="23sp" />
 
             <Button
-                android:id="@+id/em1_video_button"
+                android:id="@+id/em1_notes_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="4sp"
                 android:background="@drawable/button_background"
                 android:gravity="center"
-                android:textColor="@color/black"
                 android:text="Engineering Mathematics I"
+                android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/ep1_video_button"
+                android:id="@+id/ep1_notes_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="4sp"
                 android:background="@drawable/button_background"
                 android:gravity="center"
-                android:textColor="@color/black"
                 android:text="Engineering Physics I"
+                android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/ec1_video_button"
+                android:id="@+id/ec1_notes_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="4sp"
                 android:background="@drawable/button_background"
                 android:gravity="center"
-                android:textColor="@color/black"
                 android:text="Engineering chemisty I"
+                android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/bee_video_button"
+                android:id="@+id/bee_notes_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="4sp"
                 android:background="@drawable/button_background"
                 android:gravity="center"
-                android:textColor="@color/black"
                 android:text="BEE"
+                android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/mech_video_button"
+                android:id="@+id/mech_notes_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="4sp"
                 android:background="@drawable/button_background"
                 android:gravity="center"
-                android:textColor="@color/black"
                 android:text="Mechanics"
+                android:textColor="@color/black"
                 android:textSize="20sp" />
+
+
+
         </LinearLayout>
     </ScrollView>
     <Button
@@ -101,6 +104,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:text="back"
-        android:id="@+id/back_from_Sub_video"
+        android:id="@+id/back_from_Sub_notes"
         android:background="@drawable/sub_heading_bg"/>
 </RelativeLayout>

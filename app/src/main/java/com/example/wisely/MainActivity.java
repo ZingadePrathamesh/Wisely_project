@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         notesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,subjectActivity.class);
+                Intent intent = new Intent(MainActivity.this, notes_subjectActivity.class);
                 startActivity(intent);
             }
         });
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         videosButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, notes_subject_activity.class);
+                Intent intent = new Intent(MainActivity.this, videos_subject_activity.class);
                 startActivity(intent);
             }
         });

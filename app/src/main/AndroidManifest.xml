@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.wisely">
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wisely"
         tools:targetApi="31">
+        <activity
+            android:name=".videoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chaptersActivity"
+            android:exported="false" />
         <activity
             android:name=".notesTypeSelection"
             android:exported="false" />
@@ -26,10 +32,10 @@
             android:name=".pomodoroTimerActivity"
             android:exported="false" />
         <activity
-            android:name=".notes_subject_activity"
+            android:name=".videos_subject_activity"
             android:exported="false" />
         <activity
-            android:name=".subjectActivity"
+            android:name=".notes_subjectActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
