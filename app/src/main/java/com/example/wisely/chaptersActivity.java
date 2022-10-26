@@ -22,20 +22,22 @@ public class chaptersActivity extends AppCompatActivity {
         setContentView(R.layout.activity_chapters);
 
         ListView listview = findViewById(R.id.listView);
-        List<String> list = new ArrayList<String>();
-        list.add("chapter 1");
-        list.add("chapter 2");
-        list.add("chapter 3");
-        list.add("chapter 4");
-        list.add("chapter 5");
-        list.add("chapter 6");
-        list.add("chapter 7");
-        list.add("chapter 8");
-        list.add("chapter 9");
-        list.add("chapter 10");
+        ArrayList<Chapter> list = new ArrayList<>();
+        list.add(new Chapter("chapter 1"));
+        list.add(new Chapter("chapter 2"));
+        list.add(new Chapter("chapter 3"));
+        list.add(new Chapter("chapter 4"));
+        list.add(new Chapter("chapter 5"));
+        list.add(new Chapter("chapter 6"));
+        list.add(new Chapter("chapter 7"));
+        list.add(new Chapter("chapter 8"));
+        list.add(new Chapter("chapter 9"));
+        list.add(new Chapter("chapter 10"));
 
-        ArrayAdapter arrayAdapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1,list);
-        listview.setAdapter(arrayAdapter);
+
+
+        ChapterAdapter chapterAdapter = new ChapterAdapter(this , R.layout.list_row,list);
+        listview.setAdapter(chapterAdapter);
 
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
