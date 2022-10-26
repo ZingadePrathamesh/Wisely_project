@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 
 public class videos_subject_activity extends AppCompatActivity {
 
@@ -14,7 +15,7 @@ public class videos_subject_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_videos_subject);
 
-        Button button1 = findViewById(R.id.em1_video_button);
+        RelativeLayout button1 = findViewById(R.id.em1_video_button);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

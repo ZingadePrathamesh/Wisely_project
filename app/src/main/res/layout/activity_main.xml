@@ -45,8 +45,8 @@
         <Button
 
             android:id="@+id/notes_button"
-            android:layout_width="0sp"
-            android:layout_height="144sp"
+            android:layout_width="1dp"
+            android:layout_height="125dp"
             android:layout_margin="25sp"
             android:layout_weight="1"
             android:background="@drawable/notes_icon"
@@ -72,7 +72,7 @@
             android:layout_height="144sp"
             android:layout_margin="25sp"
             android:layout_weight="1"
-            android:background="@drawable/zenmode_icon"/>
+            android:background="@drawable/zen_icon"/>
 
         <Button
             android:id="@+id/timer_button"

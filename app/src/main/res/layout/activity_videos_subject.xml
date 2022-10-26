@@ -1,36 +1,34 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/background_theme"
     android:layout_height="match_parent">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="SUBJECT"
-        android:background="@drawable/heading_bg"
-        android:layout_margin="8sp"
-        android:textColor="@color/white"
-        android:textSize="36sp"
-        android:id="@+id/heading_text_view"
-        android:gravity="center"/>
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/heading_text_view">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_margin="8sp">
+
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="32sp"
+                android:layout_marginBottom="16sp"
+                android:background="@drawable/heading_bg"
+                android:gravity="center"
                 android:text="First Semester "
                 android:textColor="@color/white"
-                android:gravity="center"
-                android:layout_marginBottom="16sp"
-                android:background="@drawable/sub_heading_bg"/>
-            <Button
+                android:textSize="32sp"
+                android:id="@+id/sub_heading_text_view"
+                android:layout_margin="10dp"
+                android:padding="10dp"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/sub_heading_text_view"
+                android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!--    <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Engineering Mathematics I"
@@ -38,52 +36,251 @@
                 android:background="@drawable/button_background"
                 android:layout_margin="4sp"
                 android:textSize="24sp"
-                android:gravity="center"/>
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Engineering Physics I"
-                android:id="@+id/ep1_video_button"
-                android:background="@drawable/button_background"
-                android:layout_margin="4sp"
-                android:textSize="24sp"
-                android:gravity="center"/>
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Engineering chemisty I"
-                android:id="@+id/ec1_video_button"
-                android:background="@drawable/button_background"
-                android:layout_margin="4sp"
-                android:textSize="24sp"
-                android:gravity="center"/>
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="BEE"
-                android:id="@+id/bee_video_button"
-                android:background="@drawable/button_background"
-                android:layout_margin="4sp"
-                android:textSize="24sp"
-                android:gravity="center"/>
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Mechanics"
-                android:id="@+id/mech_video_button"
-                android:background="@drawable/button_background"
-                android:layout_margin="4sp"
-                android:textSize="24sp"
-                android:gravity="center"/>
-        </LinearLayout>
-    </ScrollView>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24sp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:text="back"
-        android:id="@+id/back_from_Sub_video"
-        android:background="@drawable/sub_heading_bg"/>
+                android:gravity="center"/>-->
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_background"
+                        android:padding="10dp"
+                        android:id="@+id/em1_video_button"
+                        android:clickable="true">
+
+                        <TextView
+                            android:id="@+id/em_text1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:clickable="false"
+                            android:text="Mathematics I"
+                            android:textSize="25sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/em_text2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/em_text1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:clickable="false"
+                            android:textColor="@color/white"
+                            android:text="Video Playlist" />
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="23dp"
+                            android:background="@drawable/video_icon"
+                            android:maxHeight="100dp" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_background"
+                        android:padding="10dp"
+                        android:id="@+id/ep1_video_button"
+                        android:clickable="true">
+
+                        <TextView
+                            android:id="@+id/ep_text1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Physics I"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:clickable="false"/>
+
+                        <TextView
+                            android:id="@+id/ep_text2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Video Playlist"
+                            android:textColor="@color/white"
+                            android:layout_below="@+id/ep_text1"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:clickable="false"/>
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="23dp"
+                            android:background="@drawable/video_icon"
+                            android:maxHeight="100dp" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_background"
+                        android:padding="10dp"
+                        android:id="@+id/ec1_video_button"
+                        android:clickable="true">
+
+                        <TextView
+                            android:id="@+id/ec_text1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="chemisty I"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:clickable="false"/>
+
+                        <TextView
+                            android:id="@+id/ec_text2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Video Playlist"
+                            android:textColor="@color/white"
+                            android:layout_below="@+id/ec_text1"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:clickable="false"/>
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="23dp"
+                            android:background="@drawable/video_icon"
+                            android:maxHeight="100dp" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_background"
+                        android:padding="10dp"
+                        android:id="@+id/bee_video_button"
+                        android:clickable="true">
+
+                        <TextView
+                            android:id="@+id/bee_text1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="BEE"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:clickable="false"/>
+
+                        <TextView
+                            android:id="@+id/bee_text2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Video Playlist"
+                            android:textColor="@color/white"
+                            android:layout_below="@+id/bee_text1"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:clickable="false"/>
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="23dp"
+                            android:background="@drawable/video_icon"
+                            android:maxHeight="100dp" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_background"
+                        android:padding="10dp"
+                        android:id="@+id/mech_video_button"
+                        android:clickable="true">
+
+                        <TextView
+                            android:id="@+id/mech_text1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:clickable="false"
+                            android:text="Mechanics"
+                            android:textSize="25sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/mech_text2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/mech_text1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:clickable="false"
+                            android:textColor="@color/white"
+                            android:text="Video Playlist" />
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="23dp"
+                            android:background="@drawable/video_icon"
+                            android:maxHeight="100dp" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            </ScrollView>
+
 </RelativeLayout>
