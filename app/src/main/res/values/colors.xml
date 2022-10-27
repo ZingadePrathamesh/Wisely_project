@@ -13,4 +13,9 @@
     <color name="dark_green">#0F3D3E</color>
     <color name="blue">#256D85</color>
     <color name="dark_teal">#395B64</color>
+    <color name="colorPrimary">#262938</color>
+    <color name="colorPrimaryDark">#181A24</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTransparentWhite">#CCCCCC</color>
 </resources>
