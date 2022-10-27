@@ -4,6 +4,9 @@
     package="com.example.wisely">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        tools:ignore="ManifestOrder" />
 
     <application
         android:allowBackup="true"
@@ -15,6 +18,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wisely"
         tools:targetApi="31">
+        <activity
+            android:name=".SetTimeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SetTimeActvity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
