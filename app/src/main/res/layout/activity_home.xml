@@ -2,17 +2,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_theme">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/menu_bar"
         android:layout_marginTop="8sp"
+        android:gravity="center_vertical"
         android:orientation="horizontal">
+
         <Button
-            android:layout_width="46sp"
-            android:layout_height="46sp"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
             android:background="@drawable/menu_icon"
             android:layout_margin="4sp"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -24,119 +28,162 @@
             android:background="@drawable/heading_bg"/>
     </LinearLayout>
 
+
     <HorizontalScrollView
         android:id="@+id/banner_view"
         android:layout_width="match_parent"
-        android:layout_height="150sp"
+        android:layout_height="150dp"
         android:layout_below="@id/menu_bar"
-        android:layout_marginStart="8sp"
-        android:layout_marginTop="8sp"
-        android:layout_marginEnd="8sp"
-        android:layout_marginBottom="8sp" />
-    <LinearLayout
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="15dp" />
 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="4sp"
-        android:id="@+id/grid1"
-        android:layout_below="@id/banner_view">
-
-        <Button
-
-            android:id="@+id/notes_button"
-            android:layout_width="1dp"
-            android:layout_height="125dp"
-            android:layout_margin="25sp"
-            android:layout_weight="1"
-            android:background="@drawable/notes_icon"
-            android:clickable="false" />
-        <Button
-            android:layout_width="0sp"
-            android:layout_weight="1"
-            android:id="@+id/video_button"
-            android:layout_height="144sp"
-            android:layout_margin="25sp"
-            android:background="@drawable/video_icon"/>
-    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="4sp"
-        android:id="@+id/grid2"
-        android:layout_below="@id/grid1_text_view">
-        <Button
-            android:layout_width="0sp"
-            android:id="@+id/zen_mode_button"
-            android:layout_height="144sp"
-            android:layout_margin="25sp"
-            android:layout_weight="1"
-            android:background="@drawable/zen_icon"/>
+        android:layout_height="match_parent"
+        android:layout_below="@+id/banner_view"
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/timer_button"
-            android:layout_width="0sp"
-            android:layout_height="144sp"
-            android:layout_margin="25sp"
-            android:layout_weight="1"
-            android:background="@drawable/timer_icon" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/grid1_text_view"
-        android:layout_below="@id/grid1"
-        android:orientation="horizontal"
-        android:layout_marginLeft="4sp"
-        android:layout_marginRight="4sp"
-        >
-        <TextView
-            android:layout_width="0sp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="NOTES"
-            android:textStyle="bold"
-            android:textColor="@color/dark_green"
-            android:textSize="24sp"
-            android:gravity="center"/>
-        <TextView
-            android:layout_width="0sp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="VIDEOS"            android:textStyle="bold"
+        <LinearLayout
+            android:id="@+id/gird_l1"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
 
-            android:textColor="@color/dark_green"
-            android:textSize="24sp"
-            android:gravity="center"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/grid2_text_view"
-        android:layout_below="@id/grid2"
+            <LinearLayout
+                android:id="@+id/grid1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4sp"
+                android:layout_marginTop="4sp"
+                android:layout_marginEnd="4sp"
+                android:layout_marginBottom="4sp"
+                android:orientation="vertical">
 
-        android:orientation="horizontal"
-        android:layout_marginLeft="4sp"
-        android:layout_marginRight="4sp"
-        >
-        <TextView
-            android:layout_width="0sp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ZENMODE"
-            android:textColor="@color/dark_green"
-            android:textSize="24sp"            android:textStyle="bold"
+                <Button
+                    android:id="@+id/notes_button"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="25sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/notes_icon"
+                    android:clickable="false" />
 
-            android:gravity="center"/>
-        <TextView
-            android:layout_width="0sp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="TIMER"
-            android:textStyle="bold"
-            android:textColor="@color/dark_green"
-            android:textSize="24sp"
-            android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="NOTES"
+                    android:textColor="@color/dark_green"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/grid2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4sp"
+                android:layout_marginTop="4sp"
+                android:layout_marginEnd="4sp"
+                android:layout_marginBottom="4sp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/video_button"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="25sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/video_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="VIDEOS"
+                    android:textColor="@color/dark_green"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/grid_l2"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_below="@id/gird_l1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/gird3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4sp"
+                android:layout_marginTop="4sp"
+                android:layout_marginEnd="4sp"
+                android:layout_marginBottom="4sp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/zen_mode_button"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="25sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/zen_icon" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="ZENMODE"
+                    android:textColor="@color/dark_green"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/grid4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4sp"
+                android:layout_marginTop="4sp"
+                android:layout_marginEnd="4sp"
+                android:layout_marginBottom="4sp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/timer_button"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="25sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/timer_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="TIMER"
+                    android:textColor="@color/dark_green"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
     </LinearLayout>
 </RelativeLayout>
