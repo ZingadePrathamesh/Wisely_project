@@ -19,6 +19,9 @@
         android:theme="@style/Theme.Wisely"
         tools:targetApi="31">
         <activity
+            android:name=".NotesWebView"
+            android:exported="false" />
+        <activity
             android:name=".SetTimeActivity"
             android:exported="false" />
         <activity
@@ -35,9 +38,6 @@
             android:exported="false" />
         <activity
             android:name=".chaptersActivity"
-            android:exported="false" />
-        <activity
-            android:name=".notesTypeSelection"
             android:exported="false" />
         <activity
             android:name=".zenModeActivity"

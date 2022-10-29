@@ -18,7 +18,7 @@ public class HomeActivity extends AppCompatActivity {
         notesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(HomeActivity.this, notes_subjectActivity.class);
+                Intent intent = new Intent(HomeActivity.this, NotesWebView.class);
                 startActivity(intent);
             }
         });
