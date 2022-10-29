@@ -49,9 +49,6 @@
             android:name=".videos_subject_activity"
             android:exported="false" />
         <activity
-            android:name=".notes_subjectActivity"
-            android:exported="false" />
-        <activity
             android:name=".splashScreen"
             android:exported="true">
             <intent-filter>
