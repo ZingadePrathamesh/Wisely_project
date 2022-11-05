@@ -5,18 +5,20 @@
     android:layout_height="match_parent">
 
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16sp"
-                android:background="@drawable/heading_bg"
-                android:gravity="center"
-                android:text="First Semester "
-                android:textColor="@color/white"
-                android:textSize="32sp"
-                android:id="@+id/sub_heading_text_view"
-                android:layout_margin="10dp"
-                android:padding="10dp"/>
+    <TextView
+        android:id="@+id/sub_heading_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/heading_bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="First Semester "
+        android:textColor="@color/white"
+        android:textSize="32sp" />
 
             <ScrollView
                 android:layout_width="match_parent"
