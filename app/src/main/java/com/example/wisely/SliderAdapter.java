@@ -21,8 +21,8 @@ public class SliderAdapter extends PagerAdapter {
     }
     public int[] slide_images = {
             R.drawable.video_icon,
-            R.drawable.zen_icon,
-            R.drawable.notes_icon
+            R.drawable.notes_icon,
+            R.drawable.timer_icon
     };
     public String[] slide_headings = {
    "VIDEO",
@@ -32,8 +32,8 @@ public class SliderAdapter extends PagerAdapter {
 
     public String[] slide_description={
             "the video section contains the lecture for all courses and subjects" ,
-            "the pomodoro section contains the pomodoro timer for timed session" ,
-            "the notes section contains notes for all courses and subjects"
+            "the notes section contains notes for all courses and subjects",
+            "the pomodoro section contains the pomodoro timer for timed session"
     };
 
 
