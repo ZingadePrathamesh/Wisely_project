@@ -38,13 +38,13 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        Button zenModeButton = findViewById(R.id.zen_mode_button);
-        zenModeButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(HomeActivity.this, zenModeActivity.class);
-                startActivity(intent);
-            }
-        });
+//        Button zenModeButton = findViewById(R.id.zen_mode_button);
+//        zenModeButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(HomeActivity.this, zenModeActivity.class);
+//                startActivity(intent);
+//            }
+//        });
     }
 }

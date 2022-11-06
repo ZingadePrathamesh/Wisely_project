@@ -161,37 +161,37 @@
             android:gravity="center_horizontal"
             android:orientation="horizontal">
 
-            <LinearLayout
-                android:id="@+id/gird3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="4sp"
-                android:layout_marginTop="4sp"
-                android:layout_marginEnd="4sp"
-                android:layout_marginBottom="4sp"
-                android:orientation="vertical">
+<!--            <LinearLayout-->
+<!--                android:id="@+id/gird3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="4sp"-->
+<!--                android:layout_marginTop="4sp"-->
+<!--                android:layout_marginEnd="4sp"-->
+<!--                android:layout_marginBottom="4sp"-->
+<!--                android:orientation="vertical">-->
 
-                <Button
-                    android:id="@+id/zen_mode_button"
-                    android:layout_width="125dp"
-                    android:layout_height="125dp"
-                    android:layout_margin="25sp"
-                    android:layout_weight="1"
-                    android:background="@drawable/zen_icon" />
-
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:text="ZENMODE"
-                    android:textColor="@color/dark_green"
-                    android:textSize="24sp"
-                    android:textStyle="bold" />
+<!--                <Button-->
+<!--                    android:id="@+id/zen_mode_button"-->
+<!--                    android:layout_width="125dp"-->
+<!--                    android:layout_height="125dp"-->
+<!--                    android:layout_margin="25sp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@drawable/zen_icon" />-->
 
 
-            </LinearLayout>
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:text="ZENMODE"-->
+<!--                    android:textColor="@color/dark_green"-->
+<!--                    android:textSize="24sp"-->
+<!--                    android:textStyle="bold" />-->
+
+
+<!--            </LinearLayout>-->
 
             <LinearLayout
                 android:id="@+id/grid4"
