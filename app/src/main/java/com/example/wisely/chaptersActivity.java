@@ -48,8 +48,8 @@ public class chaptersActivity extends AppCompatActivity {
         list.add(new Chapter("Transcendental Eq."));
         list.add(new Chapter("Linear Eq"));
         list.add(new Chapter("Expansion of Func."));
-        list.add(new Chapter("chapter 9"));
-        list.add(new Chapter("chapter 10"));
+//        list.add(new Chapter("chapter 9"));
+//        list.add(new Chapter("chapter 10"));
 
 
 
@@ -100,16 +100,16 @@ public class chaptersActivity extends AppCompatActivity {
                         intent7.putExtra("keyname", "https://www.youtube.com/playlist?list=PLqx9kIanjwgY5eBjXNpmR4lWMa_M8S4mN");
                         startActivity(intent7);
                         break;
-                    case 8:
-                        Intent intent8  = new Intent(getApplicationContext(),videoActivity.class);
-                        intent8.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
-                        startActivity(intent8);
-                        break;
-                    case 9:
-                        Intent intent9  = new Intent(getApplicationContext(),videoActivity.class);
-                        intent9.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
-                        startActivity(intent9);
-                        break;
+//                    case 8:
+//                        Intent intent8  = new Intent(getApplicationContext(),videoActivity.class);
+//                        intent8.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
+//                        startActivity(intent8);
+//                        break;
+//                    case 9:
+//                        Intent intent9  = new Intent(getApplicationContext(),videoActivity.class);
+//                        intent9.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
+//                        startActivity(intent9);
+//                        break;
                 }
             }
         });
@@ -123,10 +123,10 @@ public class chaptersActivity extends AppCompatActivity {
         list.add(new Chapter("Interference"));
         list.add(new Chapter("SuperCon. & SuperCap."));
         list.add(new Chapter("Material & App."));
-        list.add(new Chapter("chapter 7"));
-        list.add(new Chapter("chapter 8"));
-        list.add(new Chapter("chapter 9"));
-        list.add(new Chapter("chapter 10"));
+//        list.add(new Chapter("chapter 7"));
+//        list.add(new Chapter("chapter 8"));
+//        list.add(new Chapter("chapter 9"));
+//        list.add(new Chapter("chapter 10"));
 
 
 
@@ -167,26 +167,26 @@ public class chaptersActivity extends AppCompatActivity {
                         intent5.putExtra("keyname", "https://youtube.com/playlist?list=PLQzUXa8lZVq-GpWcleSQCxu1pczvgWTgJ");
                         startActivity(intent5);
                         break;
-                    case 6:
-                        Intent intent6  = new Intent(getApplicationContext(),videoActivity.class);
-                        intent6.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
-                        startActivity(intent6);
-                        break;
-                    case 7:
-                        Intent intent7  = new Intent(getApplicationContext(),videoActivity.class);
-                        intent7.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
-                        startActivity(intent7);
-                        break;
-                    case 8:
-                        Intent intent8  = new Intent(getApplicationContext(),videoActivity.class);
-                        intent8.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
-                        startActivity(intent8);
-                        break;
-                    case 9:
-                        Intent intent9  = new Intent(getApplicationContext(),videoActivity.class);
-                        intent9.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
-                        startActivity(intent9);
-                        break;
+//                    case 6:
+//                        Intent intent6  = new Intent(getApplicationContext(),videoActivity.class);
+//                        intent6.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
+//                        startActivity(intent6);
+//                        break;
+//                    case 7:
+//                        Intent intent7  = new Intent(getApplicationContext(),videoActivity.class);
+//                        intent7.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
+//                        startActivity(intent7);
+//                        break;
+//                    case 8:
+//                        Intent intent8  = new Intent(getApplicationContext(),videoActivity.class);
+//                        intent8.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
+//                        startActivity(intent8);
+//                        break;
+//                    case 9:
+//                        Intent intent9  = new Intent(getApplicationContext(),videoActivity.class);
+//                        intent9.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
+//                        startActivity(intent9);
+//                        break;
                 }
             }
         });
@@ -200,10 +200,10 @@ public class chaptersActivity extends AppCompatActivity {
         list.add(new Chapter("Phase Rule"));
         list.add(new Chapter("Polymers"));
         list.add(new Chapter("Water"));
-        list.add(new Chapter("chapter 7"));
-        list.add(new Chapter("chapter 8"));
-        list.add(new Chapter("chapter 9"));
-        list.add(new Chapter("chapter 10"));
+//        list.add(new Chapter("chapter 7"));
+//        list.add(new Chapter("chapter 8"));
+//        list.add(new Chapter("chapter 9"));
+//        list.add(new Chapter("chapter 10"));
 
 
 
@@ -244,26 +244,26 @@ public class chaptersActivity extends AppCompatActivity {
                         intent5.putExtra("keyname", "https://youtube.com/playlist?list=PLLf6O8XdGj03gLo6znlqJbMzgIgt8tSU1");
                         startActivity(intent5);
                         break;
-                    case 6:
-                        Intent intent6  = new Intent(getApplicationContext(),videoActivity.class);
-                        intent6.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
-                        startActivity(intent6);
-                        break;
-                    case 7:
-                        Intent intent7  = new Intent(getApplicationContext(),videoActivity.class);
-                        intent7.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
-                        startActivity(intent7);
-                        break;
-                    case 8:
-                        Intent intent8  = new Intent(getApplicationContext(),videoActivity.class);
-                        intent8.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
-                        startActivity(intent8);
-                        break;
-                    case 9:
-                        Intent intent9  = new Intent(getApplicationContext(),videoActivity.class);
-                        intent9.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
-                        startActivity(intent9);
-                        break;
+//                    case 6:
+//                        Intent intent6  = new Intent(getApplicationContext(),videoActivity.class);
+//                        intent6.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
+//                        startActivity(intent6);
+//                        break;
+//                    case 7:
+//                        Intent intent7  = new Intent(getApplicationContext(),videoActivity.class);
+//                        intent7.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
+//                        startActivity(intent7);
+//                        break;
+//                    case 8:
+//                        Intent intent8  = new Intent(getApplicationContext(),videoActivity.class);
+//                        intent8.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
+//                        startActivity(intent8);
+//                        break;
+//                    case 9:
+//                        Intent intent9  = new Intent(getApplicationContext(),videoActivity.class);
+//                        intent9.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
+//                        startActivity(intent9);
+//                        break;
                 }
             }
         });
@@ -277,10 +277,10 @@ public class chaptersActivity extends AppCompatActivity {
         list.add(new Chapter("Module 3"));
         list.add(new Chapter("Transformers"));
         list.add(new Chapter("Elec. Machines"));
-        list.add(new Chapter("Module 6"));
-        list.add(new Chapter("chapter 8"));
-        list.add(new Chapter("chapter 9"));
-        list.add(new Chapter("chapter 10"));
+//        list.add(new Chapter("Module 6"));
+//        list.add(new Chapter("chapter 8"));
+//        list.add(new Chapter("chapter 9"));
+//        list.add(new Chapter("chapter 10"));
 
 
 
@@ -321,26 +321,26 @@ public class chaptersActivity extends AppCompatActivity {
                         intent5.putExtra("keyname", "https://youtube.com/playlist?list=PLohtAIfLLw8cdi1iOLyLNX1f839KSXDnl");
                         startActivity(intent5);
                         break;
-                    case 6:
-                        Intent intent6  = new Intent(getApplicationContext(),videoActivity.class);
-                        intent6.putExtra("keyname", "https://youtube.com/playlist?list=PLqx9kIanjwgb8_P6XinNSDMNo_qBeTpYz");
-                        startActivity(intent6);
-                        break;
-                    case 7:
-                        Intent intent7  = new Intent(getApplicationContext(),videoActivity.class);
-                        intent7.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
-                        startActivity(intent7);
-                        break;
-                    case 8:
-                        Intent intent8  = new Intent(getApplicationContext(),videoActivity.class);
-                        intent8.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
-                        startActivity(intent8);
-                        break;
-                    case 9:
-                        Intent intent9  = new Intent(getApplicationContext(),videoActivity.class);
-                        intent9.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
-                        startActivity(intent9);
-                        break;
+//                    case 6:
+//                        Intent intent6  = new Intent(getApplicationContext(),videoActivity.class);
+//                        intent6.putExtra("keyname", "https://youtube.com/playlist?list=PLqx9kIanjwgb8_P6XinNSDMNo_qBeTpYz");
+//                        startActivity(intent6);
+//                        break;
+//                    case 7:
+//                        Intent intent7  = new Intent(getApplicationContext(),videoActivity.class);
+//                        intent7.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
+//                        startActivity(intent7);
+//                        break;
+//                    case 8:
+//                        Intent intent8  = new Intent(getApplicationContext(),videoActivity.class);
+//                        intent8.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
+//                        startActivity(intent8);
+//                        break;
+//                    case 9:
+//                        Intent intent9  = new Intent(getApplicationContext(),videoActivity.class);
+//                        intent9.putExtra("keyname", "https://www.youtube.com/watch?v=50VNCymT-Cs");
+//                        startActivity(intent9);
+//                        break;
                 }
             }
         });
